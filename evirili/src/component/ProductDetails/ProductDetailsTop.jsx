@@ -1,6 +1,8 @@
 import React from 'react'
+import Slider from 'react-slick';
 
 function ProductDetailsTop() {
+	
   return (
       <div>
           <section className="product-details-section section-top-padding">
@@ -8,24 +10,12 @@ function ProductDetailsTop() {
 			<div className="row">
 				{/* <!-- product gellary --> */}
 				<div className="col-md-7 col-12">
+				
 					<div className="xzoom-container">
 						<img className="xzoom" id="xzoom-default" src="assets/img/product/preview-1.png" alt="" />
 					</div>
-					<div className="xzoom-thumbs">
-						<a href="assets/img/product/orginal-1.png">
-							<img className="xzoom-gallery" width="80" src="assets/img/product/thums-1.png" alt=""/>
-						</a>
-
-						<a href="assets/img/product/orginal-2.png">
-							<img className="xzoom-gallery" width="80" src="assets/img/product/thums-2.png" alt=""/>
-						</a>
-
-						<a href="assets/img/product/orginal-1.png">
-							<img className="xzoom-gallery" width="80" src="assets/img/product/thums-1.png" alt=""/>
-						</a>
-
-					</div>
 				</div>
+				
 				{/* <!-- main right -->/ */}
 				<div className="col-md-5 col-12">
 					<div className="product-right">
@@ -70,7 +60,9 @@ function ProductDetailsTop() {
 								<div className="prp-qtn pull-right">
 									<button type="button" id="sub" className="sub prp-qtn-btn"><i
 											className="fa fa-minus"></i></button>
-									<input type="text" id="1" className="prp-qtn-input" value="1" />
+									{/* <input type="text" id="1" className="prp-qtn-input" value="1" /> */}
+									<input type="text" id="1" className="prp-qtn-input" value="1" readOnly />
+
 									<button type="button" id="add" className="add prp-qtn-btn"><i
 											className="fa fa-plus"></i></button>
 								</div>

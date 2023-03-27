@@ -2,8 +2,8 @@ import React from 'react'
 
 function Review() {
   return (
-      <div>
-          <section className="review-section section-top-padding">
+    <div>
+        <section className="review-section section-top-padding">
         <div className="container">
             {/* <!-- section header --> */}
             <div className="row">
@@ -20,25 +20,14 @@ function Review() {
                 <div className="col-lg-6 col-md-12">
                     <div className="product-view-slider section-top-margin">
                         {/* <!-- testimonial-carousel owl-carousel owl-theme --> */}
-                        <div className="product_slider owl-carousel owl-theme">
+                        <div className="product_slider ">
                             <div className="item">
                                 <div className="product-content">
                                     <h2>Red High Wedage</h2>
                                     <img src="assets/img/Homepage/product-slider--item-1.png" alt=""/>
                                 </div>
-                            </div>
-                            <div className="item">
-                                <div className="product-content">
-                                    <h2>Red High Wedage</h2>
-                                    <img src="assets/img/Homepage/product-slider--item-1.png" alt=""/>
-                                </div>
-                            </div>
-                            <div className="item">
-                                <div className="product-content">
-                                    <h2>Red High Wedage</h2>
-                                    <img src="assets/img/Homepage/product-slider--item-1.png" alt=""/>
-                                </div>
-                            </div>
+                        </div>
+                            
                         </div>
                     </div>
                 </div>
@@ -52,7 +41,7 @@ function Review() {
                         </div>
                         {/* <!-- rating list table --> */}
                         <div className="pr-list-table">
-                                  <table>
+                            <table>
                                     <tbody>
                                 {/* <!--row -->/ */}
                                 <tr>
@@ -118,7 +107,7 @@ function Review() {
                                             <li><i className="fa fa-star-half-o"></i></li>
                                         </ul>
                                     </td>
-                                          </tr>
+                                </tr>
                                           </tbody>
                             </table>
                         </div>
