@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function ErrorBody() {
   return (
@@ -21,7 +22,7 @@ function ErrorBody() {
                         <h2 className="error-title">Sorry! We can’t Find This Pages</h2>
                         <p className="error-text">Oops! The page you are looking for does not exit. it might been moved or
                             deleted.</p>
-                        <a className="btn1" href="index.html">Back to home</a>
+                        <Link className="btn1" to='/'>Back to home</Link>
                     </div>
                 </div>
             </div>
